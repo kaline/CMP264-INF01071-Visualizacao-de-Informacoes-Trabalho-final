@@ -1,8 +1,11 @@
 {
   "dependencies": {
-    "d3": "^7.8.5"
+    "d3": "^7.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.2",
+    "nodemon": "^2.0"
   },
   "scripts": {
-    "start": "start index.js"
+    "start": "start server.js"
   }
 }
