@@ -2,13 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tomorrow.io Rainfall probability</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+
+
+
   </head>
   <body>
     
   </body>
-  <script src="index.js"></script>
+  <script>
+ 
+
+d3.csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vR6eQcfeyHYomSW7ncu-QfjjvcjYC9e5oG7pa3G7nWwAxHOmEGqzhSLyYrxMuty8UAA0l1NR8HFpyiI/pub?gid=187221472&single=true&output=csv", function(data) {
+      for (var i = 0; i < data.length; i++) {
+          console.log(data[i]);
+          console.log("teste")
+
+      }
+  });
+
+d3.csv("https://gist.githubusercontent.com/d3noob/fa0f16e271cb191ae85f/raw/bf896176236341f56a55b36c8fc40e32c73051ad/treedata.csv", function(data){
+    console.log(data);
+});
+
+</script>
+
+
+
+
+    
 </html>
